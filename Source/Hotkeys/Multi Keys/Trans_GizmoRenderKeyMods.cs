@@ -11,7 +11,7 @@ namespace Hotkeys
     [HarmonyPatch(typeof(Command), "GizmoOnGUIInt")]
     public class Trans_GizmoRenderKeyMods
     {
-        static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+        static IEnumerable<CodeInstruction> XTranspiler(IEnumerable<CodeInstruction> instructions)
         {
             bool afterTarget = false;
             MethodInfo Contains = AccessTools.Method(typeof(HashSet<KeyCode>), nameof(HashSet<KeyCode>.Contains));
@@ -76,7 +76,7 @@ namespace Hotkeys
     [HarmonyPatch(typeof(GizmoGridDrawer), nameof(GizmoGridDrawer.DrawGizmoGrid))]
     public class Patch_ClearDrawnGizmoKeyDefs
     {
-        static void Prefix()
+        static void XPrefix()
         {
             KeyMods.drawnGimoKeyDefs.Clear();
         }
