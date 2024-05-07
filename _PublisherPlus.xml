@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Excluded>
+    <exclude>.git</exclude>
+    <exclude>Source\Hotkeys\.vs</exclude>
+    <exclude>Source\Hotkeys\obj</exclude>
+    <exclude>Source\Hotkeys\packages\Lib.Harmony.2.2.2</exclude>
+    <exclude>Source\Hotkeys\packages\Lib.Harmony.2.3.3</exclude>
+  </Excluded>
+</Configuration>
