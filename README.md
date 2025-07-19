@@ -1,10 +1,11 @@
-# [Hotkeys 1.5](https://steamcommunity.com/sharedfiles/filedetails/?id=3241798504)</p>
+# [Hotkeys 1.6](https://steamcommunity.com/sharedfiles/filedetails/?id=3241798504)</p>
 
-**All credits to the original authors and maintainers, this is fork to update to 1.5. I may or may not fix bugs, depending on whether they annoy me or not.  The repositories for the previous versions can be found here:**
+**All credits to the original authors and maintainers, this is fork to update to 1.6. I may or may not fix bugs, depending on whether they annoy me or not.  The repositories for the previous versions can be found here:**
 
 * [Original Source](https://github.com/AzeTheGreat/Hotkeys)
 * [1.3 Source](https://github.com/vvanouytsel/Hotkeys)
 * [1.4 Source](https://github.com/basicsmods/Hotkeys)
+* [1.5 Source](https://github.com/kaerum/Hotkeys)
 
 ## Original description
 
